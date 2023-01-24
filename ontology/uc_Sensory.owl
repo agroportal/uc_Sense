@@ -21,11 +21,11 @@
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Import>file:/imports/ro_import.owl</Import>
-    <Import>file:/imports/bfo_import.owl</Import>
-    <Import>file:/imports/uberon_import.owl</Import>
-    <Import>file:/imports/envo_import.owl</Import>
-    <Import>file:/imports/chebi_import.owl</Import>
+    <Import>https://raw.githubusercontent.com/IC-FOODS/uc_Sense/master/ontology/imports/ro_import.owl</Import>
+    <Import>https://raw.githubusercontent.com/IC-FOODS/uc_Sense/master/ontology/imports/bfo_import.owl</Import>
+    <Import>https://raw.githubusercontent.com/IC-FOODS/uc_Sense/master/ontology/imports/uberon_import.owl</Import>
+    <Import>https://raw.githubusercontent.com/IC-FOODS/uc_Sense/master/ontology/imports/envo_import.owl</Import>
+    <Import>https://raw.githubusercontent.com/IC-FOODS/uc_Sense/master/ontology/imports/chebi_import.owl</Import>
     <Declaration>
         <Class IRI="#behavioral_process"/>
     </Declaration>
